@@ -1,0 +1,72 @@
+body {
+    color: black;
+    background-color:snow;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex-grow: 1;
+}
+footer {
+    background-color: rgb(39, 39, 39);
+    color: whitesmoke;
+    padding: 10px 16px 16px 16px;
+    border-top: 3px solid rgb(73, 73, 73);
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+
+header {
+    margin-top: 46px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color:rgb(25, 78, 0);
+    margin-right: 26px;
+    text-decoration: rgb(133, 70, 70);
+}
+
+.portrait {
+    height: 400px;
+    width: 400px;
+
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    padding: 8px;
+}
+
+#message-1 {
+    font-family: fantasy;
+    font-weight: 200;
+    color: firebrick;
+}
+#message-2 {
+    font-family: fantasy;
+}
+#heading1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
